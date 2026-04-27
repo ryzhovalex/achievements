@@ -1,0 +1,7 @@
+set dotenv-load := true
+
+ACHIEVEMENT_PATH := env_var("ACHIEVEMENT_PATH")
+SERVER_URL := env_var("SERVER_URL")
+
+upload:
+    python upload.py --path "{{ACHIEVEMENT_PATH}}" --url "{{SERVER_URL}}"
