@@ -1,0 +1,29 @@
+{
+	"folders": [
+		{
+			"path": ".",
+			"name": "ROOT",
+		},
+		{
+			"path": "server",
+			"name": "SERVER",
+		},
+	],
+	"settings": {
+		"files.exclude": {
+			"server/": true,
+		},
+	},
+	"launch": {
+		"configurations": [
+			{
+				"name": "Run Server",
+				"type": "debugpy",
+				"request": "launch",
+				"program": "${workspaceFolder:SERVER}/main.py",
+				"cwd": "${workspaceFolder:SERVER}"
+			},
+		]
+	},
+
+}

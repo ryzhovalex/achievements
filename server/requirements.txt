@@ -1,0 +1,13 @@
+psycopg2
+pandas
+sqlalchemy
+asyncpg==0.30.0
+aiofiles
+pydantic
+httpx
+colorama
+aiohttp
+aiohttp-cors
+pyjwt
+pytest
+markdown
